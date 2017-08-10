@@ -1,10 +1,3 @@
-# Getting-and-Cleaning-Data-Course-Project
----
-title: "README"
-author: "Miriam Ben-Hamo"
-date: "August 10, 2017"
----
-
 ## Getting-and-Cleaning-Data-Course-Project
 
 * This repository was created to satisfy the requirements of the Coursera specialization in Data Science
