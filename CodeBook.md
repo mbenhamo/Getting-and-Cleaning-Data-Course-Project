@@ -32,11 +32,11 @@ The **Tidy activity data.csv** file found in this repository consists of the fol
               16. fBodyGyroMag
               17. fBodyGyroJerkMag
               
-     4. The set of variables that were estimated from these signals are: 
+4. The set of variables that were estimated from these signals are: 
+  
+5. **mean**: Mean value
        
-     5. **mean**: Mean value
-       
-     6. * **std**: Standard deviation
+6. * **std**: Standard deviation
         
 ## Summary data set
 
