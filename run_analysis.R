@@ -16,7 +16,6 @@ download.file(dataURL,destfile = "./Final Project/Dataset.zip")
 
 ##### Unzip the dataset folder:
 unzip ("./Final Project/Dataset.zip",exdir = "./Final Project")
-(features)
 
 ##### Read the different data files that are relevant for this assignment:
 
@@ -182,7 +181,7 @@ names(dat) <- gsub("()", "", names(dat),fixed=T)
 # [66] "fBodyBodyAccJerkMag.std"   "fBodyBodyGyroMag.std"      "fBodyBodyGyroJerkMag.std"
 
 ### Now that I have a tidy dataset I can write it into my project folder:
-write.table(dat,"./Final Project/Tidy activity data.csv",sep=",",row.names = F)
+write.table(dat,"./Final Project/Tidy activity data.txt",sep="\t",row.names = F)
 
 ##########################################################################################################################################
 ##########################################################################################################################################
@@ -198,4 +197,4 @@ summary_dat <- aggregate(dat[,-c(1,2)],by=list(dat$subject.id,dat$activity.label
 names(summary_dat)[1:2] <- c("subject.id","activity.label")
 
 ## I will write the tidy new dataset into my project folder:
-write.table(summary_dat,"./Final Project/Summary of activity data.csv",sep=",",row.names = F)
+write.table(summary_dat,"./Final Project/Summary of activity data.txt",sep="\t",row.names = F)
