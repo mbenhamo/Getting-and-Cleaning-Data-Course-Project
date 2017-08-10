@@ -27,16 +27,16 @@ The **Tidy activity data.csv** file found in this repository consists of the fol
               11. fBodyAcc-XYZ
               12. fBodyAccJerk-XYZ
               13. fBodyGyro-XYZ
-              14. fBodyAccMag
+              14. fBdyAccMag
               15. fBodyAccJerkMag
               16. fBodyGyroMag
               17. fBodyGyroJerkMag
+              
+     4. The set of variables that were estimated from these signals are: 
        
-       5. The set of variables that were estimated from these signals are: 
+     5. **mean**: Mean value
        
-       6. **mean**: Mean value
-       
-       7. * **std**: Standard deviation
+     6. * **std**: Standard deviation
         
 ## Summary data set
 
