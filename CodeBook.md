@@ -1,9 +1,3 @@
----
-title: "Code Book"
-author: "Miriam Ben-Hamo"
-date: "August 10, 2017"
----
-
 ## Tidy data set
 
 The **Tidy activity data.csv** file found in this repository consists of the following columns:
